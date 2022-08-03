@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+body {
+  background-color: #23252c;
+  width: 100%;
+}
+
+.App {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #23252c;
+  height: 100vh;
+}
+
+.container {
+  width: 20%;
+  background-color: #1a1b21;
+}
+
+.info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.profilePhoto {
+  width: 100%;
+}
+
+.info h2 {
+  padding: 15px 15px 0px 15px;
+  font-weight: 500;
+  color: white;
+}
+
+.info h4 {
+  font-size: 12px;
+  color: #f3bf99;
+  font-weight: 400;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
+
+.info p {
+  font-size: 10px;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  color: white;
+  padding-top: 10px;
+}
+
+.buttonInfo {
+  display: flex;
+  padding: 10px 15px;
+}
+
+.emailButton,
+.linkedlnButton {
+  padding: 8px 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.5rem;
+  margin-right: 0.3rem;
+  margin-left: 0.5rem;
+  width: 100%;
+  border-radius: 5px;
+  font-weight: 600;
+  border: none;
+}
+
+.linkedlnButton {
+  color: white;
+  background-color: #5093e2;
+}
+
+.emailButton {
+  background-color: #fff;
+}
+.info .textButton {
+  padding: 0px 8px;
+}
+
+.about,
+.interest {
+  padding: 10px 15px;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.title {
+  color: white;
+  padding: 2px 0px;
+}
+
+.description {
+  color: white;
+  font-weight: lighter;
+  font-size: 13px;
+  word-spacing: 3px;
+}
+
+.footer {
+  background-color: #161619;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  color: #918e9b;
+  padding: 15px 5px;
+}
+
+.footer .socialMediaIcon {
+  padding: 10px 0px;
+}
+
+.socialMediaIcon a svg {
+  height: 2rem;
+  width: 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 80%;
+    background-color: #1a1b21;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .container {
+    width: 80%;
+    background-color: #1a1b21;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    width: 50%;
+    background-color: #1a1b21;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .container {
+    width: 30%;
+    background-color: #1a1b21;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .container {
+    width: 20%;
+    background-color: #1a1b21;
+  }
+}
